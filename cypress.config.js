@@ -6,5 +6,14 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'http://localhost:3000/',
-  },
+    video: true,
+      reporter: 'mochawesome',
+      reporterOptions: {
+        reportDir: 'cypress/results',
+        overwrite: false,
+        html: true,
+        json: false,
+        timestamp: "mmddyyyy_HHMMss" 
+    },
+  }
 });
