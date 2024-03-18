@@ -1,0 +1,155 @@
+[
+    {
+        "nome": "Ana Oliveira",
+        "crm": 9876543,
+        "imagem": "img123.jpg",
+        "especialidade": "pediatria",
+        "possuiPlanoSaude": true,
+        "senha": "abcd1234",
+        "planosSaude": [1,2],
+        "estaAtivo": true,
+        "email": "ana.oliveira@example.com",
+        "telefone": "(123) 456-7890",
+        "endereco": {
+            "cep": 12345678,
+            "rua": "Rua das Flores",
+            "estado": "São Paulo",
+            "numero": 123,
+            "complemento": "apto 101"
+        }
+    },
+    {
+        "nome": "Carlos Santos",
+        "crm": 1234567,
+        "imagem": "img456.jpg",
+        "especialidade": "ginecologia",
+        "possuiPlanoSaude": false,
+        "senha": "senha123",
+        "planosSaude": [0],
+        "estaAtivo": false,
+        "email": "carlos.santos@example.com",
+        "telefone": "(987) 654-3210",
+        "endereco": {
+            "cep": 98765432,
+            "rua": "Av. Principal",
+            "estado": "Rio de Janeiro",
+            "numero": 456,
+            "complemento": "casa"
+        }
+    },
+    {
+        "nome": "Juliana Lima",
+        "crm": 8765432,
+        "imagem": "img789.jpg",
+        "especialidade": "dermatologia",
+        "possuiPlanoSaude": true,
+        "senha": "senha1234",
+        "planosSaude": [1],
+        "estaAtivo": true,
+        "email": "juliana.lima@example.com",
+        "telefone": "(234) 567-8901",
+        "endereco": {
+            "cep": 23456789,
+            "rua": "Rua dos Sonhos",
+            "estado": "São Paulo",
+            "numero": 789,
+            "complemento": "bloco A"
+        }
+    },
+    {
+        "nome": "Stephen Strange",
+        "crm": 9876543,
+        "imagem": "strange.jpg",
+        "especialidade": "Neurocirurgia Mística",
+        "possuiPlanoSaude": true,
+        "senha": "abcd1234",
+        "planosSaude": [1,2],
+        "estaAtivo": true,
+        "email": "stephen.strange@example.com",
+        "telefone": "(123) 456-7890",
+        "endereco": {
+            "cep": 12345678,
+            "rua": "Bleecker Street",
+            "estado": "Nova York",
+            "numero": 177,
+            "complemento": "Sanctum Sanctorum"
+        }
+    },
+    {
+        "nome": "Hank McCoy",
+        "crm": 1234567,
+        "imagem": "beast.jpg",
+        "especialidade": "Mutação e Genética",
+        "possuiPlanoSaude": false,
+        "senha": "senha123",
+        "planosSaude": [0],
+        "estaAtivo": false,
+        "email": "hank.mccoy@example.com",
+        "telefone": "(987) 654-3210",
+        "endereco": {
+            "cep": 98765432,
+            "rua": "Xavier's School for Gifted Youngsters",
+            "estado": "Nova York",
+            "numero": 1407,
+            "complemento": "Laboratório"
+        }
+    },
+    {
+        "nome": "Bruce Banner",
+        "crm": 8765432,
+        "imagem": "banner.jpg",
+        "especialidade": "Radiologia Gama",
+        "possuiPlanoSaude": true,
+        "senha": "senha1234",
+        "planosSaude": [1],
+        "estaAtivo": true,
+        "email": "bruce.banner@example.com",
+        "telefone": "(234) 567-8901",
+        "endereco": {
+            "cep": 23456789,
+            "rua": "Desconhecida",
+            "estado": "Desconhecido",
+            "numero": "Desconhecido",
+            "complemento": "Laboratório Secreto"
+        }
+    },
+    {
+        "nome": "Paulo Coelho",
+        "crm": 3456789,
+        "imagem": "img789.jpg",
+        "especialidade": "ortopedia",
+        "possuiPlanoSaude": true,
+        "senha": "senha12345",
+        "planosSaude": [2],
+        "estaAtivo": true,
+        "email": "paulo.coelho@example.com",
+        "telefone": "(456) 789-0123",
+        "endereco": {
+            "cep": 34567890,
+            "rua": "Av. das Árvores",
+            "estado": "Rio de Janeiro",
+            "numero": 987,
+            "complemento": "apto 303"
+        }
+    },
+    {
+        "nome": "Amanda Ferreira",
+        "crm": 2345678,
+        "imagem": "img123.jpg",
+        "especialidade": "neurologia",
+        "possuiPlanoSaude": false,
+        "senha": "senha123456",
+        "planosSaude": [0],
+        "estaAtivo": false,
+        "email": "amanda.ferreira@example.com",
+        "telefone": "(567) 890-1234",
+        "endereco": {
+            "cep": 45678901,
+            "rua": "Rua das Palmeiras",
+            "estado": "São Paulo",
+            "numero": 678,
+            "complemento": "bloco B"
+        }
+    }
+    
+]
