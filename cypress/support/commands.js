@@ -1,6 +1,11 @@
-Cypress.Commands.add('login', (email, senha) => { 
-    cy.get('[data-test="inputLoginEmail"]').type(email)
-    cy.get('[data-test="inputLoginSenha"]').type(senha)
+Cypress.Commands.add('login', (email, senha) => {
+  
+        cy.visit('/login') 
+        cy.get('[data-test="inputLoginEmail"]').type(email)
+        cy.get('[data-test="inputLoginSenha"]').type(senha, {log:false})
+        cy.get('[data-test="botaoTeste"]').should('be.visible').click()
+    
+   
     // cy.get('form').submit()
     // cy.get('.sc-jfvxQR').contains('Entrar')
 
@@ -11,12 +16,22 @@ Cypress.Commands.add('login', (email, senha) => {
     // cy.get('.sc-bcXHqe').click()
     // cy.contains('Entrar').click()
 
-    cy.get('[data-test="botaoTeste"]').should('be.visible').click()
+   
 
     // options auth login
 
 })
 
+Cypress.Commands.add('loginAdmin', (email, senha) => {
+    cy.session([email, senha], ()=>{
+        cy.visit('/login') 
+        cy.get('[data-test="inputLoginEmail"]').type(email)
+        cy.get('[data-test="inputLoginSenha"]').type(senha, {log:false})
+        cy.get('[data-test="botaoTeste"]').should('be.visible').click()
+        cy.location('pathname').should('eq', '/dashboard')
+    })
+
+})
 
 // ***********************************************
 // This example commands.js shows you how to
