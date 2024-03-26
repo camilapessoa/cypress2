@@ -6,7 +6,7 @@ describe('Página de cadastro', () => {
     
       it('Clica no link "Cadastra-se" e esperar redirecionar para a página de cadastro ', () => {
         cy.get('[href="/cadastro"]').click()
-        cy.location('pathname').should('equal', '/cadastro')
+        cy.location('pathname').should('equal', '/cadastro') //asserções mais complexas
                           
         })
 
