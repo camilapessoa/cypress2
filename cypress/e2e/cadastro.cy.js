@@ -26,7 +26,7 @@ beforeEach(() =>{
     })
 
 
-    it('cadastra usuário', () =>{
+    it('cadastra usuário clínica/admin', () =>{
       cy.get('[href="/cadastro"]').click();
       cy.get('[data-test="inputNome"]').type('Catarina P');
       cy.get('[data-test="inputCNPJ"]').type('12598432');
