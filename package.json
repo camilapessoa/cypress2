@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "cypress run & wait-on http://localhost:3030",
     "cy:open": "cypress open",
     "cy:run":"cypress run",
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
