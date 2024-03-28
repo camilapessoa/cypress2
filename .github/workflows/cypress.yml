@@ -27,9 +27,10 @@ jobs:
           # Records to Cypress Cloud 
           # https://docs.cypress.io/guides/cloud/projects#Set-up-a-project-to-record
           record: true
+          wait-on: 'http://192.168.15.48:3000/'
           command: npm run cy:run
             # Starts web server for E2E tests - replace with your own server invocation
             # https://docs.cypress.io/guides/continuous-integration/introduction#Boot-your-server
             # start: npm start
-             # Waits for above  wait-on: 'http://localhost:3000'
+             # Waits for above  
             # Runs test in parallel using settings above parallel: true
