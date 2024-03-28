@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cypress run & wait-on http://192.168.15.48:3000",
+    
     "cy:open": "cypress open",
     "cy:run":"cypress run",
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
