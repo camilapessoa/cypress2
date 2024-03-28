@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cypress open",
+    "cy:open": "cypress open",
+    "cy:run":"cypress run",
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
     "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +16,7 @@
     "cypress": "^13.7.1",
     "eslint": "^8.57.0",
     "eslint-plugin-cypress": "^2.15.1",
-    "mochawesome": "^7.1.3"
+    "mochawesome": "^7.1.3",
+    "wait-on": "^7.2.0"
   }
 }
